@@ -3,8 +3,8 @@ const mailgun = require("mailgun-js");
 
 // Create a config object and initialise the mailgun SDK
 const emailConfig = {
-	apiKey: process.env.MAILGUN_API_KEY,
-	domain: process.env.MAILGUN_DOMAIN
+	apiKey: "52da277d243041b15493009492ccf194-19806d14-72f48f08",
+	domain: "sandbox8134d27aa8f4495c9cc44d850600e041.mailgun.org"
 };
 const mg = mailgun(emailConfig);
 
